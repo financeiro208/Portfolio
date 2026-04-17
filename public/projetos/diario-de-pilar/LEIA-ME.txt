@@ -1,0 +1,9 @@
+Coloque as imagens e vídeos do projeto "Diário de Pilar" nesta pasta.
+
+Exemplo de nomes:
+- slide1.jpg
+- slide2.jpg
+- video1.mp4
+
+Depois, atualize o arquivo src/lib/translations.ts com os caminhos corretos:
+"/projetos/diario-de-pilar/slide1.jpg"

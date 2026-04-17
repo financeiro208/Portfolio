@@ -1,0 +1,306 @@
+export type Language = "en" | "pt";
+
+export const translations = {
+  en: {
+    nav: {
+      about: "About",
+      projects: "Projects",
+      experience: "Experience",
+      contact: "Contact",
+      hireMe: "Hire Me",
+    },
+    hero: {
+      role: "Graphic Designer & Web Designer",
+      title1: "Simplicity",
+      title2: "is not the absence of details,",
+      title3: "it is the perfection of the message.",
+      cta: "Explore Projects",
+      followMe: "Follow Me",
+      quote: '"Design is not just what it looks like and feels like. Design is how it works."',
+    },
+    about: {
+      badge: "About Me",
+      title: "CRAFTING VISUAL STORIES THROUGH DESIGN.",
+      p1: "Hello! I'm Gustavo Ladeira, a graphic designer with over five years of experience. My mission is to create and deliver high-quality design projects that help my clients stand out in the market.",
+      p2: "I specialize in web design using CMS platforms like WordPress, Framer, and Wix, as well as motion design and video editing. I'm constantly pushing the boundaries of my creativity.",
+      philosophy: "Design Philosophy",
+      philosophyText: "I believe in the balance between aesthetics, functionality, and brand identity. Every pixel should serve a purpose.",
+    },
+    services: {
+      badge: "Expertise",
+      title: "WHAT I DO.",
+      web: {
+        title: "Web Design",
+        desc: "Creating responsive and high-performance websites using Framer, WordPress, and Wix.",
+      },
+      graphic: {
+        title: "Graphic Design",
+        desc: "Visual identity, print materials, and branding solutions for diverse industries.",
+      },
+      motion: {
+        title: "Motion Design",
+        desc: "Dynamic video editing and animations that bring brands to life.",
+      },
+      video: {
+        title: "Video Editing",
+        desc: "Editing high-quality videos for social media, campaigns, and corporate materials.",
+      },
+    },
+    projects: {
+      badge: "Portfolio",
+      title: "SELECTED WORKS.",
+      quote: '"Every project is a new opportunity to push the boundaries of what\'s possible."',
+      viewProject: "View Project",
+      viewAll: "View All Projects",
+      items: [
+        {
+          id: "diario-de-pilar",
+          title: "Diário de Pilar na Amazônia",
+          category: "Integrated Campaign",
+          description: "Movie release campaign including videos, social media posts, and printed materials.",
+          coverImage: "/projetos/diario-de-pilar/capa.jpg",
+          tags: ["Video Editing", "Social Media", "Print Design"],
+          slides: [
+            "/projetos/diario-de-pilar/slide1.jpg",
+            "/projetos/diario-de-pilar/slide2.jpg",
+            "/projetos/diario-de-pilar/slide3.jpg",
+            "/projetos/diario-de-pilar/slide4.jpg",
+            "/projetos/diario-de-pilar/slide5.jpg",
+            "/projetos/diario-de-pilar/slide6.jpg",
+            "/projetos/diario-de-pilar/slide7.jpg",
+            "/projetos/diario-de-pilar/slide8.jpg",
+            "/projetos/diario-de-pilar/slide9.jpg",
+            "/projetos/diario-de-pilar/slide10.jpg"
+          ],
+          videos: [
+            "/projetos/diario-de-pilar/video1.mp4",
+            "/projetos/diario-de-pilar/video2.mp4",
+            "/projetos/diario-de-pilar/video3.mp4",
+            "/projetos/diario-de-pilar/video4.mp4",
+            "/projetos/diario-de-pilar/video5.mp4",
+            "/projetos/diario-de-pilar/video6.mp4"
+          ]
+        },
+        {
+          id: "simbiose-digital",
+          title: "Simbiose Digital Website",
+          category: "Web Design",
+          description: "A professional website built for a digital agency, focusing on conversion and modern aesthetics.",
+          tags: ["Framer", "UI/UX", "Responsive"],
+        },
+        {
+          id: "motions-2024",
+          title: "Motions 2024-2025",
+          category: "Motion Design",
+          description: "A collection of high-impact motion graphics and video editing projects for various clients.",
+          tags: ["After Effects", "Premiere Pro", "Motion"],
+        },
+        {
+          id: "imtd-website",
+          title: "IMTD Website",
+          category: "Web Design",
+          description: "Institutional website developed with a focus on clean layout and user experience.",
+          tags: ["WordPress", "Elementor", "Design"],
+        },
+      ],
+    },
+    experience: {
+      badge: "Journey",
+      title: "EXPERIENCE.",
+      items: [
+        {
+          role: "Senior Art Director",
+          company: "Agência Desafio",
+          period: "March 2024 - February 2026",
+          desc: "Leading visual communication strategies and art direction for integrated campaigns.",
+        },
+        {
+          role: "Graphic & Web Designer",
+          company: "Simbiose Digital",
+          period: "May 2022 - Sep 2023",
+          desc: "Developed visual identities and responsive websites for a wide range of clients.",
+        },
+        {
+          role: "Graphic Designer & Video Editor",
+          company: "Farmacompany",
+          period: "March 2022 - March 2023",
+          desc: "Created marketing materials and edited high-quality videos for pharmaceutical branding.",
+        },
+      ],
+    },
+    contact: {
+      badge: "Contact",
+      title: "LET'S WORK TOGETHER.",
+      desc: "I'm currently available for freelance work and full-time positions. If you have a project that needs some creative love, reach out!",
+      emailMe: "Email Me",
+      callMe: "Call Me",
+      location: "Location",
+      locValue: "Campinas, SP - Brazil",
+      form: {
+        name: "Your Name",
+        email: "Email Address",
+        subject: "Subject",
+        message: "Message",
+        placeholder: "Tell me about your project...",
+        send: "Send Message",
+      },
+    },
+    footer: {
+      desc: "A multidisciplinary designer focused on building high-end digital experiences that balance form and function.",
+      nav: "Navigation",
+      socials: "Socials",
+      builtWith: "Built with Passion.",
+    },
+  },
+  pt: {
+    nav: {
+      about: "Sobre",
+      projects: "Projetos",
+      experience: "Experiência",
+      contact: "Contato",
+      hireMe: "Contrate-me",
+    },
+    hero: {
+      role: "Designer Gráfico & Web Designer",
+      title1: "Simplicidade",
+      title2: "não é falta de detalhes,",
+      title3: "é a perfeição da mensagem.",
+      cta: "Explorar Projetos",
+      followMe: "Siga-me",
+      quote: '"Design não é apenas o que parece e o que se sente. Design é como funciona."',
+    },
+    about: {
+      badge: "Sobre Mim",
+      title: "CRIANDO HISTÓRIAS VISUAIS ATRAVÉS DO DESIGN.",
+      p1: "Olá! Sou Gustavo Ladeira, designer gráfico com mais de cinco anos de experiência. Minha missão é criar e entregar projetos de design de alta qualidade que ajudam meus clientes a se destacarem no mercado.",
+      p2: "Sou especialista em web design usando plataformas CMS como WordPress, Framer e Wix, além de motion design e edição de vídeo. Estou constantemente expandindo os limites da minha criatividade.",
+      philosophy: "Filosofia de Design",
+      philosophyText: "Acredito no equilíbrio entre estética, funcionalidade e identidade de marca. Cada pixel deve ter um propósito.",
+    },
+    services: {
+      badge: "Especialidades",
+      title: "O QUE EU FAÇO.",
+      web: {
+        title: "Web Design",
+        desc: "Criação de sites responsivos e de alta performance usando Framer, WordPress e Wix.",
+      },
+      graphic: {
+        title: "Design Gráfico",
+        desc: "Identidade visual, materiais impressos e soluções de branding para diversos setores.",
+      },
+      motion: {
+        title: "Motion Design",
+        desc: "Edição de vídeo dinâmica e animações que dão vida às marcas.",
+      },
+      video: {
+        title: "Edição de Vídeo",
+        desc: "Edição de vídeos de alta qualidade para redes sociais, campanhas e materiais corporativos.",
+      },
+    },
+    projects: {
+      badge: "Portfólio",
+      title: "TRABALHOS SELECIONADOS.",
+      quote: '"Cada projeto é uma nova oportunidade de ultrapassar os limites do que é possível."',
+      viewProject: "Ver Projeto",
+      viewAll: "Ver Todos os Projetos",
+      items: [
+        {
+          id: "diario-de-pilar",
+          title: "Diário de Pilar na Amazônia",
+          category: "Campanha Integrada",
+          description: "Campanha de lançamento do filme, incluindo vídeos, posts para redes sociais e materiais impressos.",
+          coverImage: "/projetos/diario-de-pilar/capa.jpg",
+          tags: ["Edição de Vídeo", "Social Media", "Material Impresso"],
+          slides: [
+            "/projetos/diario-de-pilar/slide1.jpg",
+            "/projetos/diario-de-pilar/slide2.jpg",
+            "/projetos/diario-de-pilar/slide3.jpg",
+            "/projetos/diario-de-pilar/slide4.jpg",
+            "/projetos/diario-de-pilar/slide5.jpg",
+            "/projetos/diario-de-pilar/slide6.jpg",
+            "/projetos/diario-de-pilar/slide7.jpg",
+            "/projetos/diario-de-pilar/slide8.jpg",
+            "/projetos/diario-de-pilar/slide9.jpg",
+            "/projetos/diario-de-pilar/slide10.jpg"
+          ],
+          videos: [
+            "/projetos/diario-de-pilar/video1.mp4",
+            "/projetos/diario-de-pilar/video2.mp4",
+            "/projetos/diario-de-pilar/video3.mp4",
+            "/projetos/diario-de-pilar/video4.mp4",
+            "/projetos/diario-de-pilar/video5.mp4",
+            "/projetos/diario-de-pilar/video6.mp4"
+          ]
+        },
+        {
+          id: "simbiose-digital",
+          title: "Website Simbiose Digital",
+          category: "Web Design",
+          description: "Um site profissional construído para uma agência digital, com foco em conversão e estética moderna.",
+          tags: ["Framer", "UI/UX", "Responsivo"],
+        },
+        {
+          id: "motions-2024",
+          title: "Motions 2024-2025",
+          category: "Motion Design",
+          description: "Uma coleção de projetos de motion graphics e edição de vídeo de alto impacto para diversos clientes.",
+          tags: ["After Effects", "Premiere Pro", "Motion"],
+        },
+        {
+          id: "imtd-website",
+          title: "Website IMTD",
+          category: "Web Design",
+          description: "Site institucional desenvolvido com foco em layout limpo e experiência do usuário.",
+          tags: ["WordPress", "Elementor", "Design"],
+        },
+      ],
+    },
+    experience: {
+      badge: "Jornada",
+      title: "EXPERIÊNCIA.",
+      items: [
+        {
+          role: "Diretor de Arte Pleno",
+          company: "Agência Desafio",
+          period: "Março de 2024 - Fevereiro de 2026",
+          desc: "Liderando estratégias de comunicação visual e direção de arte para campanhas integradas.",
+        },
+        {
+          role: "Designer Gráfico & Web Designer",
+          company: "Simbiose Digital",
+          period: "Maio 2022 - Setembro 2023",
+          desc: "Desenvolvi identidades visuais e sites responsivos para uma ampla gama de clientes.",
+        },
+        {
+          role: "Designer Gráfico & Editor de Vídeos",
+          company: "Farmacompany",
+          period: "Março 2022 - Março 2023",
+          desc: "Criei materiais de marketing e editei vídeos de alta qualidade para branding farmacêutico.",
+        },
+      ],
+    },
+    contact: {
+      badge: "Contato",
+      title: "VAMOS TRABALHAR JUNTOS.",
+      desc: "Atualmente estou disponível para trabalhos freelance e posições de tempo integral. Se você tem um projeto que precisa de um toque criativo, entre em contato!",
+      emailMe: "E-mail",
+      callMe: "Ligue para mim",
+      location: "Localização",
+      locValue: "Campinas, SP - Brasil",
+      form: {
+        name: "Seu Nome",
+        email: "Endereço de E-mail",
+        subject: "Assunto",
+        message: "Mensagem",
+        placeholder: "Conte-me sobre seu projeto...",
+        send: "Enviar Mensagem",
+      },
+    },
+    footer: {
+      desc: "Um designer multidisciplinar focado em construir experiências digitais de alto nível que equilibram forma e função.",
+      nav: "Navegação",
+      socials: "Sociais",
+      builtWith: "Feito com Paixão.",
+    },
+  },
+};
